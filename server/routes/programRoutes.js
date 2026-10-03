@@ -1,0 +1,1 @@
+module.exports = require('../utils/makeRouter')(require('../models/Program'), { searchFields: ['name', 'tagline'] });

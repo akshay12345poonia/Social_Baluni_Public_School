@@ -1,0 +1,1 @@
+module.exports = require('../utils/makeRouter')(require('../models/Sport'), { searchFields: ['name', 'description'], writeRoles: ['superadmin', 'admin', 'sports-coordinator'] });
